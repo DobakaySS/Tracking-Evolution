@@ -1,1 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
+body {
+    background-color: rgb(13, 19, 35);
+    color: rgb(254, 255, 248);
+    font-family: 'Rubik', sans-serif;
+
+    
+}
+h1{
+    font-size: 32px;
+}
+h2{
+    font-size: 18px;
+}
+
+h3 {
+    color: rgb(151, 155, 202);
+    font-weight: 300;
+}
+
+/*Classes*/
+.info-card-color {
+    background-color: rgb(29, 32, 75);
+}
+
+.work-color {
+    background-color: rgb(255, 139, 100);
+}
+
+.play-color {
+    background-color: rgb(86, 194, 230);
+}
+
+.study-color {
+    background-color: rgb(255, 94, 125);
+}
+
+.exercise-color {
+    background-color: rgb(75, 207, 131);
+}
+
+.social-color {
+    background-color: rgb(114, 53, 209);
+}
+
+.selfcare-color {
+    background-color: rgb(241, 199, 91);
+}
+
+.profile-color {
+    background-color: rgb(87, 70, 234);
+}
