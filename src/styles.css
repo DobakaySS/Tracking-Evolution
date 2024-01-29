@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
 body {
     background-color: rgb(13, 19, 35);
     color: rgb(254, 255, 248);
@@ -8,15 +8,21 @@ body {
     
 }
 h1{
-    font-size: 32px;
+    font-size: 46px;
+    font-weight: 100;
+    margin: 0px;
 }
 h2{
     font-size: 18px;
+    margin: 0px;
+    font-weight: 300;
 }
 
 h3 {
     color: rgb(151, 155, 202);
     font-weight: 300;
+    margin: 0px;
+    font-size: 13px;
 }
 
 /*Classes*/
