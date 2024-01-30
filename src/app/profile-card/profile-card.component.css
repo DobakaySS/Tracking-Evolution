@@ -10,6 +10,11 @@ h1{
 h2{
     font-size: 16px;
     margin-left: 25px;
+    color: rgb(151, 155, 202);
+}
+h2:hover{
+    cursor: pointer;
+    color:rgb(254, 255, 248);
 }
 
 .container {
@@ -17,14 +22,12 @@ h2{
     height: 421px; 
     gap: 8px;
     border-radius: 10px;
-    cursor: pointer;
 }
 .profile-container{
     width: 160px;
     height: 239px;
     gap: 8px;
-    border-radius: 10px;
-    cursor: pointer; 
+    border-radius: 10px; 
     padding: 25px; 
 }
 .image-container{

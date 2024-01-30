@@ -1,0 +1,62 @@
+<div class="grid-container">
+    <div class="profile-card">
+        <app-profile-card 
+        [name]="'Douglas Santos'" 
+        [imagePath]="'image-jeremy'">
+    </app-profile-card>
+    </div>
+    <div class="activity-card">
+        <app-card 
+            [color]="'work-color'" 
+            [activity]="'Work'" 
+            [thisWeekHours]="32" 
+            [lastWeekHours]="36"
+            [svgContent]="'work'">
+        </app-card>
+    </div>
+    <div class="activity-card">
+        <app-card 
+            [color]="'play-color'" 
+            [activity]="'Play'" 
+            [thisWeekHours]="10" 
+            [lastWeekHours]="8"
+            [svgContent]="'play'"
+        ></app-card>
+    </div>
+    <div class="activity-card">
+        <app-card 
+            [color]="'study-color'"
+            [activity]="'Study'" 
+            [thisWeekHours]="4" 
+            [lastWeekHours]="7"
+            [svgContent]="'study'">
+        </app-card>
+    </div>
+    <div class="activity-card">
+        <app-card 
+            [color]="'exercise-color'" 
+            [activity]="'Exercise'" 
+            [thisWeekHours]="4" 
+            [lastWeekHours]="5"
+            [svgContent]="'exercise'"
+        ></app-card>
+    </div>
+    <div class="activity-card">
+        <app-card 
+            [color]="'social-color'" 
+            [activity]="'Social'" 
+            [thisWeekHours]="5" 
+            [lastWeekHours]="10"
+            [svgContent]="'social'"
+        ></app-card>
+    </div>
+    <div class="activity-card">
+        <app-card 
+            [color]="'self-care-color'" 
+            [activity]="'Self Care'" 
+            [thisWeekHours]="2" 
+            [lastWeekHours]="2"
+            [svgContent]="'self-care'">
+        </app-card>
+    </div>
+</div>
