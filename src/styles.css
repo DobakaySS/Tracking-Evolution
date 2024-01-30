@@ -4,8 +4,6 @@ body {
     background-color: rgb(13, 19, 35);
     color: rgb(254, 255, 248);
     font-family: 'Rubik', sans-serif;
-
-    
 }
 h1{
     font-size: 46px;
@@ -50,7 +48,7 @@ h3 {
     background-color: rgb(114, 53, 209);
 }
 
-.selfcare-color {
+.self-care-color {
     background-color: rgb(241, 199, 91);
 }
 

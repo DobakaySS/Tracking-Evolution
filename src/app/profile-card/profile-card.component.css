@@ -1,0 +1,39 @@
+img {
+    width: 63px; 
+    height: auto; 
+    border: 3px solid white;
+    border-radius: 50%;
+}
+h1{
+    font-size:36px;
+}
+h2{
+    font-size: 16px;
+    margin-left: 25px;
+}
+
+.container {
+    width: 210px; 
+    height: 421px; 
+    gap: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.profile-container{
+    width: 160px;
+    height: 239px;
+    gap: 8px;
+    border-radius: 10px;
+    cursor: pointer; 
+    padding: 25px; 
+}
+.image-container{
+    margin-bottom: 32px;
+}
+.content-wrapper{
+    height: 132px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
