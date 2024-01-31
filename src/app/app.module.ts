@@ -3,14 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CardComponent } from './card/card.component';
+import { ActivityCardComponent } from './activity-card/activity-card.component';
 import { ProfileCardComponent } from './profile-card/profile-card.component';
 import { LoggedHomePageComponent } from './logged-home-page/logged-home-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CardComponent,
+    ActivityCardComponent,
     ProfileCardComponent,
     LoggedHomePageComponent
   ],
