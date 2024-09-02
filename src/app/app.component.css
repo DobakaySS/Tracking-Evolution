@@ -1,1 +1,5 @@
-
+.content-container{
+  display: flex;
+  justify-content: center;
+  min-width: 1000px;
+}
