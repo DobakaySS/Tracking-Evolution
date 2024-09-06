@@ -27,3 +27,8 @@
     grid-column: span 1;
     grid-row: span 1;
 }
+.content-container{
+    display: flex;
+    justify-content: center;
+    min-width: 1000px;
+  }
